@@ -7,7 +7,7 @@ resource "aws_instance" "my-instance" {
         instance_type = "t2.micro"
         key_name = "newpvt"
         tags = {
-                Name = "terraform-ec2"
+                Name = "terra-project-ec2"
         }
 }
 
